@@ -42,7 +42,10 @@ jobs:
       - name: Change wrapper permissions
         run: chmod +x ./gradlew
 
-     
+     # Create APK Release
+      - name: clean 
+        run: ./gradlew clean
+
 
     
       # Create APK Release
