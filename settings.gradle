@@ -1,2 +1,2 @@
-rootProject.name = "wallsappaction"
+rootProject.name = "walls"
 include ':app'
